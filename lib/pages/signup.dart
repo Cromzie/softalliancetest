@@ -162,11 +162,11 @@ class _SignState extends State<Sign> {
                   var valid = keY.currentState!.validate();
                   if (valid) {
                     keY.currentState!.save();
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => DisplayPage(name: '$eMail'),
-                        ));
+                    // Navigator.push(
+                    //     context,
+                    //     MaterialPageRoute(
+                    //       builder: (context) => DisplayPage(name: '$eMail'),
+                    //     ));
                   }
                 },
                 child: TextsWidget(
